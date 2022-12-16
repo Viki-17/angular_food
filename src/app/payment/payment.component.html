@@ -1,0 +1,65 @@
+<div class="container">
+  <form action="">
+    <div class="row">
+      <div class="col">
+        <h3 class="title">Billing Address</h3>
+
+        <div class="inputBox">
+          <span>Full Name :</span>
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="inputBox">
+          <span>Email :</span>
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="inputBox">
+          <span>Address :</span>
+          <input type="text" placeholder="Address" />
+        </div>
+        <div class="inputBox">
+          <span>City :</span>
+          <input type="text" placeholder="City" />
+        </div>
+        <div class="inputBox">
+          <span>State :</span>
+          <input type="text" placeholder="State" />
+        </div>
+        <div class="inputBox">
+          <span>Pincode :</span>
+          <input type="text" placeholder="Pincode" />
+        </div>
+      </div>
+
+      <div class="col">
+        <h3 class="title">Payment</h3>
+
+        <div class="inputBox">
+          <span>Card Accepted :</span>
+          <img src="/assets/images/foods/card.png" alt="" />
+        </div>
+        <div class="inputBox">
+          <span>Name On Card :</span>
+          <input type="text" placeholder="Name" />
+        </div>
+
+        <div class="inputBox">
+          <span>Card Number :</span>
+          <input type="number" placeholder="Card Number" />
+        </div>
+        <div class="inputBox">
+          <span>Exp Month :</span>
+          <input type="text" placeholder="Month" />
+        </div>
+        <div class="inputBox">
+          <span>Exp Year :</span>
+          <input type="number" placeholder="Year" />
+        </div>
+        <div class="inputBox">
+          <span>CVV:</span>
+          <input type="number" placeholder="CVV" />
+        </div>
+      </div>
+    </div>
+    <button class="submit-btn" (click)="paymentConfirmation()">Pay Now</button>
+  </form>
+</div>
